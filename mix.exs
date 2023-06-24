@@ -172,6 +172,10 @@ defmodule Stripe.Mixfile do
         Stripe.Transfer,
         Stripe.TransferReversal
       ],
+      "Financial Connections": [
+        Stripe.FinancialConnections.Session,
+        Stripe.FinancialConnections.Account
+      ],
       Fraud: [
         Stripe.Fraud.EarlyFraudWarning,
         Stripe.Review
