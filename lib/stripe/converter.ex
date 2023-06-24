@@ -37,6 +37,8 @@ defmodule Stripe.Converter do
     external_account
     file
     file_link
+    financial_connections.account
+    financial_connections.session
     identity.verification_session
     identity.verification_report
     invoice
